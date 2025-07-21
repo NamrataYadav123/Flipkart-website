@@ -1,0 +1,178 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f1f3f6;
+}
+
+/*  Navbar */
+.navbar-section {
+  background-color: #2874f0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.search {
+  background-color: #f0f5ff;
+  padding: 1px ;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+
+.search  i {
+  color: white;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search input {
+  
+  background: transparent;
+  font-size: 15px;
+  flex: 1;
+  color: white;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.navbar input {
+  flex: 1;
+  margin: 0 15px;
+  padding: 8px;
+  border: none;
+  border-radius: 2px;
+}
+
+.navbar button {
+  background-color: white;
+  border: none;
+  padding: 8px 16px;
+  color: #2874f0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*  Main Container */
+.main {
+  display: flex;
+  padding: 20px;
+}
+
+/*  Left Section */
+.left-section {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.address-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.green {
+  color: green;
+}
+
+.assured-icon {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.delivery {
+  font-size: 14px;
+  color: #fb641b;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #2874f0;
+}
+
+/*  Right Section */
+.section1 {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+.right-section h3 {
+  margin-top: 0;
+}
+
+.price1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.saving {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+/*  Place Order Button */
+.order-section {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  text-align: right;
+  padding: 15px 30px;
+  border-top: 1px solid #ddd;
+}
+
+.place-order button {
+  background-color: #fb641b;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 2px;
+}

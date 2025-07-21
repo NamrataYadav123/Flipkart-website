@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    /* background-color: white; */
+    background-color: white;
+   
+} 
+body,html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     overflow-x: hidden;
+   
+}    
+
+.navbar div{
+    margin: 15px;
+}
+.navbar div img{
+    width: 150px;
+    color: black;
+}
+
+.navbar div a{
+    text-decoration: none;
+    color: black;
+}
+.mininav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.mininav{
+    display:flex;
+    align-items:center ;
+    justify-content: space-between;
+    display: none;
+    padding: 10px;
+}
+.mininav div  label i{
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px 10px 10px;
+    border-radius: 7px;
+}
+.shownav{
+ display: none;
+ position: absolute;
+ top: 0px;
+ background-color: burlywood;
+ width: 100%;
+}
+
+@media(max-width:1024){
+    .navbar{
+        display: none;
+    }
+    .mininav{
+        display: none;
+    }
+    #check1:checked~.shownav{
+        display: block;
+
+    }
+}
+
+
+/* search Bar......................... */
+.search-container {
+  background-color: #f0f5ff;
+  padding: 12px ;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+   overflow-x: hidden;
+}
+
+.search-container i {
+  color: #888;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  flex: 1;
+  color: #333;
+}
+
+/* image section........... */
+
+.image{
+ background-color:rgb(227, 232, 235);
+ padding: 8px;
+}
+.image .image1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.image .image1 div a img{
+    width: 70px;
+}
+
+.image .image1 div a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+@media(max-width:1024px){
+   .image .image1{
+    display: grid;
+    grid-template-columns: auto auto  auto auto auto auto auto auto auto;
+   
+    padding: 20px;
+    gap: 30px;
+   
+} 
+}
+
+@media(max-width:950px){
+   .image .image1{
+    display: grid;
+    grid-template-columns: auto auto  auto auto auto auto auto ;
+   
+    padding: 20px;
+    gap: 30px;
+   
+} 
+}
+
+
+@media(max-width:800px){
+   .image .image1{
+    display: grid;
+    grid-template-columns: auto auto  auto auto auto  ;
+   
+    padding: 20px;
+    gap: 30px;
+   
+} 
+}
+
+@media(max-width:500px){
+   .image .image1{
+    display: grid;
+    grid-template-columns: auto auto  auto  ;
+   
+    padding: 20px;
+    gap: 30px;
+   
+} 
+}
+
+/* Mobile section.................. */
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(227, 232, 235);
+    padding: 10px;
+     overflow-x: hidden;
+}
+.mobile .mobile1{
+    display: flex;
+    padding: 70px;
+    gap: 70px;
+}
+.mobile .mobile1 div a{
+    text-decoration: none;
+    color: black;
+   
+}
+.mobile .mobile1 div a img{
+    width: 100px;
+}
+
+.mobile .mobile2 div a img{
+    width: 200px;
+   
+}
+
+
+
+
+
